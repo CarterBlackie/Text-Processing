@@ -29,10 +29,12 @@ def main():
                 print("Digit count:", functions.digit_count(s))
                 pass
             elif option == 4: 
-                # dsmvwl(string)
+                s = input("Enter a string: ")
+                print("Disemvoweled string:", functions.dsmvwl(s))
                 pass
             elif option == 5: 
-                # calculate(expr)
+                expr = input("Enter an expression (e.g. '3 + 4'): ")
+                print("Result:", functions.calculate(expr))
                 pass
             elif option == 6: 
                 print("Exiting the program!")
