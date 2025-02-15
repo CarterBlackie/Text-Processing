@@ -21,7 +21,8 @@ def main():
                 print("Category:", functions.url_categorize(url))
                 pass
             elif option == 2: 
-                # is_palindrome(s)
+                s = input("Enter a string: ")
+                print("Palindrome:", functions.is_palindrome(s))
                 pass
             elif option == 3: 
                 # digit_count(s)

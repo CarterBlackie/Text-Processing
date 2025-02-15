@@ -7,9 +7,12 @@ def url_categorize(url):
         return 'non-profit'
     else:
         return 'other'
-
+    
 def is_palindrome(s):
     """ Checks whether the given string is palindrome or not. """
+    s = s.lower()
+    return s == s[::-1]
+
    
 
 def digit_count(s):
