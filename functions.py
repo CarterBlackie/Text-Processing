@@ -17,8 +17,9 @@ def is_palindrome(s):
 
 def digit_count(s):
     """ Counts the number of digits in a string. """
-    
+    return sum(c.isdigit() for c in s)
 
+    
 def dsmvwl(string):
     """ Disemvowels a string. """
     

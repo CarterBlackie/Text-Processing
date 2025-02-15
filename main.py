@@ -25,7 +25,8 @@ def main():
                 print("Palindrome:", functions.is_palindrome(s))
                 pass
             elif option == 3: 
-                # digit_count(s)
+                s = input("Enter a string: ")
+                print("Digit count:", functions.digit_count(s))
                 pass
             elif option == 4: 
                 # dsmvwl(string)
