@@ -17,7 +17,8 @@ def main():
         try:
             option = int(input("Enter your option: "))  # Prompt for input inside the loop
             if option == 1:
-                # url_categorize(url)
+                url = input("Enter URL: ")
+                print("Category:", functions.url_categorize(url))
                 pass
             elif option == 2: 
                 # is_palindrome(s)
